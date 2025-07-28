@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم تماس با ما</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>تماس با ما</h2>
+    <form action="send.php" method="post">
+      <input type="text" name="name" placeholder="نام شما" required>
+      <input type="email" name="email" placeholder="ایمیل" required>
+      <input type="text" name="subject" placeholder="موضوع" required>
+      <textarea name="message" placeholder="متن پیام شما" required></textarea>
+      <button type="submit">ارسال</button>
+    </form>
+  </div>
+</body>
+</html>
